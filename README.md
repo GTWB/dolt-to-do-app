@@ -5,7 +5,7 @@ The project focuses on clean DOM manipulation, client-side state persistence, an
 
 ### 🔗 Live Demo
 
-👉 [https://gtwb.github.io/dolt/](https://gtwb.github.io/dolt/)
+👉 [https://gtwb.github.io/dolt-to-do-app/](https://gtwb.github.io/dolt/)
 
 ---
 
@@ -61,5 +61,6 @@ This project was built to:
 
 ## 🚀 Getting Started Locally
 
-**Clone the repo**  
- `git clone https://github.com/GTWB/dolt.git`
+1. Clone the repo: `git clone https://github.com/GTWB/dolt.git`
+
+2. Open index.html in your browser
