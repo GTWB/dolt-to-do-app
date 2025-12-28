@@ -5,7 +5,7 @@ The project focuses on clean DOM manipulation, client-side state persistence, an
 
 ### 🔗 Live Demo
 
-👉 [https://gtwb.github.io/dolt-to-do-app/](https://gtwb.github.io/dolt/)
+👉 [https://gtwb.github.io/dolt-to-do-app/](https://gtwb.github.io/dolt-to-do-app/)
 
 ---
 
