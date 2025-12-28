@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <title>Dolt - simple task manager</title>
+  </head>
+  <body>
+    <!-- Search Bar and Task List -->
+    <div class="container">
+      <div class="title">
+        <h1>Dolt📌</h1>
+        <p class="subTitle">Your simple, no-fuss task manager</p>
+      </div>
+      <div class="searchBar">
+        <div class="searchBarContainer">
+          <span class="material-symbols-outlined"> search </span>
+          <input
+            id="input"
+            class="textInput"
+            type="text"
+            placeholder="Search Tasks..."
+          />
+        </div>
+        <button class="addButton" type="button">Add Task</button>
+      </div>
+      <!-- Task Container -->
+      <div class="taskContainer">
+        <!-- List of task added dynamically -->
+      </div>
+      <div class="deleteAllContainer">
+        <!-- Placeholder for filter buttons -->
+        <div class="filterTasks">
+          <p>Filter Tasks:</p>
+          <!-- Filter buttons -->
+          <div class="filterButtons">
+            <button class="filter all active">All</button>
+            <button class="filter toDo">To Do</button>
+            <button class="filter completed">Completed</button>
+          </div>
+        </div>
+
+        <!-- Button to clear all tasks -->
+        <button class="deleteAll" type="button">Clear List</button>
+      </div>
+    </div>
+
+    <!-- Task Input Interface -->
+    <div class="hidden">
+      <span class="material-symbols-outlined closeButton"> close </span>
+
+      <h2>Create New Task</h2>
+
+      <div class="taskTitle">
+        <p>Task Title:</p>
+        <input
+          type="text"
+          class="titleInput"
+          placeholder="What needs to be done?"
+          required
+        />
+      </div>
+      <div class="taskDescription">
+        <p>Task Description:</p>
+        <textarea
+          class="descriptionInput"
+          placeholder="Add details about the task..."
+          rows="15"
+        ></textarea>
+      </div>
+      <button type="button" class="addTask">Create Task</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
