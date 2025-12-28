@@ -29,24 +29,25 @@ The project focuses on clean DOM manipulation, client-side state persistence, an
 ## 🎯 Project Goals
 
 This project was built to:
-• Practice pure JavaScript application logic
-• Manage UI state without frameworks
-• Work with localStorage for data persistence
-• Implement realistic task-management user flows
-• Build a clean, responsive UI with simple interactions
+
+- Practice pure JavaScript application logic
+- Manage UI state without frameworks
+- Work with localStorage for data persistence
+- Implement realistic task-management user flows
+- Build a clean, responsive UI with simple interactions
 
 ---
 
 ## Technical Overview
 
-• Vanilla JavaScript only — no frameworks or libraries
-• DOM manipulation using native browser APIs
-• Event delegation for scalable interaction handling
-• Client-side persistence via localStorage
-• Clear separation between:
-• UI rendering
-• user interactions
-• data persistence
+- Vanilla JavaScript only — no frameworks or libraries
+- DOM manipulation using native browser APIs
+- Event delegation for scalable interaction handling
+- Client-side persistence via localStorage
+- Clear separation between:
+- UI rendering
+- user interactions
+- data persistence
 
 ---
 
