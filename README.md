@@ -39,14 +39,14 @@ This project was built to:
 
 ## Technical Overview
 
-    •	Vanilla JavaScript only — no frameworks or libraries
-    •	DOM manipulation using native browser APIs
-    •	Event delegation for scalable interaction handling
-    •	Client-side persistence via localStorage
-    •	Clear separation between:
-    •	UI rendering
-    •	user interactions
-    •	data persistence
+• Vanilla JavaScript only — no frameworks or libraries
+• DOM manipulation using native browser APIs
+• Event delegation for scalable interaction handling
+• Client-side persistence via localStorage
+• Clear separation between:
+• UI rendering
+• user interactions
+• data persistence
 
 ---
 
